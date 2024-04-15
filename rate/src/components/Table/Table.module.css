@@ -1,0 +1,91 @@
+.tableHeader {
+    display: flex;
+    margin-left: 44px;
+    font-family: "Fira Code", monospace;
+    line-height: 24px;
+}
+
+.tableHeader button {
+    background-color: #000;
+    border: 0;
+    color: #fff;
+    padding: 0;
+    text-decoration: underline;
+}
+
+.tableHeader button:hover {
+    cursor: pointer;
+    background-color: #000;
+}
+
+.table {
+    margin: 20px 0 20px 32px;
+    font-family: "Fira Code", monospace;
+    border-collapse: collapse;
+}
+
+.row:hover {
+    cursor: pointer;
+    background: #000;
+}
+
+.title {
+    font-size: 16px;
+    display: block;
+    text-align: right;
+    font-family: "Fira Code", monospace;
+}
+
+.title:first-child {
+    text-align: left;
+}
+
+
+.row {
+    display: block;
+    padding: 0 12px;
+    user-select: none;
+}
+
+.cell {
+    text-align: right;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.cell:first-child {
+    text-align: left;
+}
+
+.starred {
+    position: relative;
+}
+
+.starred::after {
+    position: absolute;
+    left: -18px;
+    top: 0;
+    content: "★";
+}
+
+.highlighted {
+    background: #333;
+}
+
+.right {
+    width: 450px;
+    margin-left: auto;
+    top: 60px;
+    right: 32px;
+    max-height: calc(100vh - 60px);
+    position: sticky;
+}
+.inputNumber {
+  display: none;
+
+}
+
+
+
+
+

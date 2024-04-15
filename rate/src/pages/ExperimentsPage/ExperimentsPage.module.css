@@ -1,0 +1,14 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 12px;
+}
+
+.buttonWrap {
+    position: relative;
+}
+
+.switchButton {
+    top: 12px;
+    cursor: pointer;
+}

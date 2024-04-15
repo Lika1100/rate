@@ -1,0 +1,178 @@
+.wrapper {
+    display: flex;
+    height: calc(100vh - 40px);
+}
+
+.nav {
+    display: flex;
+    margin-left: 2vw;
+    /* width: 42vw; */
+    position: relative;
+}
+
+.weekNavigation {
+    display: flex;
+    width: 14vw;
+}
+
+.weekInfo {
+    width: 28vw;
+    font-family: "Fira Code";
+    line-height: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.resetButton {
+    margin-left: 16px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.currentWeekButtonWrapper {
+    margin-left: 7vw;
+    width: 14vw;
+    text-align: center;
+}
+
+.weekTitle {
+    font-family: "Fira Code";
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: bold;
+    border-radius: 2px;
+    padding: 2px 4px;
+    margin: 0 auto;
+}
+
+.currentWeekTitle {
+    background: green;
+}
+
+.futureWeekTitle {
+    background: #444;
+}
+
+.weekUrl {
+    border: none;
+    font-size: 24px;
+    line-height: 1;
+    font-weight: bold;
+}
+
+.hoursColumn {
+    position: relative;
+    width: 2%;
+}
+
+.hour {
+    position: absolute;
+    display: block;
+    width: 98vw;
+    left: 2vw;
+    background: #333;
+    height: 0.5px;
+    transform: translateY(-1px);
+}
+
+.hour::before {
+    font-family: "Fira Code", monospace;
+    content: attr(data-hour);
+    font-size: 12px;
+    line-height: 1;
+    top: -0.5em;
+    left: calc(-2vw + 4px);
+    width: 2vw;
+    position: absolute;
+}
+
+.dayColumn {
+    position: relative;
+    width: 14%;
+    display: flex;
+}
+
+.dayHeader {
+    font-family: "Fira Code", monospace;
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 2px 8px;
+    margin: 6px 0;
+    border-radius: 4px;
+    background: rgba(0, 0, 0, 0.3);
+    top: 0;
+    /* text-align: center; */
+}
+
+.dayHeaderToday {
+    background: green;
+}
+
+.error {
+    background: red;
+}
+
+.dayColumn:nth-child(even) {
+  background: rgba(0, 0, 0, 0.2);
+}
+.event {
+    position: absolute;
+    left: 0;
+    border-radius: 6px;
+    width: calc(100% - 2px);
+    transform: translate(1px, 1px);
+    padding: 4px;
+    overflow: hidden;
+    background-color: #333;
+    color: white;
+    font-size: 13px;
+    user-select: none;
+    cursor: pointer;
+}
+
+.chosenEvent {
+    background-color: #1a6abd;
+}
+
+.price{
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    padding: 2px 4px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #333;
+}
+.name{
+    font-weight: bold;
+}
+
+.curWeek {
+    font-size: 14px;
+    line-height: 24px;
+    padding: 0 12px;
+    cursor: pointer;
+    border: 0 solid #000;
+    border-radius: 4px;
+    color: white;
+    background: #444;
+    outline: none;
+    translate: transform 0.3s ease-in-out;
+}
+
+.curWeek:active {
+    transform: scale(0.98);
+}
+
+.curWeek:disabled {
+    transform: none;
+}

@@ -1,0 +1,34 @@
+.pricesMenu {
+  display: flex;
+  font-size: 12px;
+  /*margin-left: 24px;*/
+  height: 24px;
+  line-height: 12px;
+}
+
+.pricesOption {
+  display: flex;
+  margin-right: 16px;
+  height: 24px;
+  overflow: scroll;
+}
+
+.pricesOption:last-child {
+  margin-right: 0;
+}
+
+.pricesList {
+  margin: 0;
+  margin-left: 8px;
+  padding: 0;
+  list-style: none;
+  text-align: left;
+}
+
+.square {
+  display: block;
+  width: 16px;
+  height: 16px;
+  border-radius: 3px;
+  margin: 4px 0;
+}

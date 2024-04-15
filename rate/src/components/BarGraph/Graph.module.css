@@ -1,0 +1,46 @@
+.wrapper {
+    isolation: isolate;
+    position: relative;
+    background: #555;
+    border-radius: 6px;
+    overflow: hidden;
+    width: 800px;
+}
+
+.graphWrapperInner {
+    width: 800px;
+    overflow: scroll;
+}
+
+.levelLine {
+    height: 1px;
+    background: rgba(0, 0, 0, .2);
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.levelValue {
+    position: absolute;
+    transform: translateY(-50%);
+    background: #44444488;
+    border-radius: 2px;
+    font-size: 10px;
+    padding: 2px 4px;
+    right: 4px;
+    z-index: 2;
+}
+
+.inflation {
+    position: absolute;
+    left: 4px;
+    top: 4px;
+    z-index: 10000;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    padding: 0;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}

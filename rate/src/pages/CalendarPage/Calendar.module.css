@@ -1,0 +1,5 @@
+.year {
+    display: grid;
+    grid-template-columns: 22% 22% 22% 22%;
+    gap: 0 4%; 
+}

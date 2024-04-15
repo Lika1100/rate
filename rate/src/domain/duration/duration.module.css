@@ -1,0 +1,13 @@
+.colored[data-duration="60"] {
+  background: linear-gradient(to top, #005ffb, #3e93fe);
+}
+
+.colored[data-duration="90"] {
+  background: linear-gradient(to top, #00bb00, #00d049);
+}
+
+.colored[data-duration="DEFAULT"] {
+  background: linear-gradient(to top, #d42111, #e2685d);
+}
+
+

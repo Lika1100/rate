@@ -1,0 +1,11 @@
+.colored[data-length="1"] {
+  background: linear-gradient(to top, #eab000, #ffde55);
+}
+
+.colored[data-length="2"] {
+  background: linear-gradient(to top, #ff8b04, #ffb157);
+}
+
+.colored[data-length="3"] {
+  background: linear-gradient(to top, #d42111, #e2685d);
+}

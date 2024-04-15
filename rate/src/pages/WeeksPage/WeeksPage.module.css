@@ -1,0 +1,34 @@
+.menu {
+    display: flex;
+    justify-content: space-between;
+    margin: 12px;
+    min-height: 24px;
+}
+
+.switchButton {
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.right {
+    width: 800px;
+    margin-left: auto;
+    top: 60px;
+    right: 32px;
+    max-height: calc(100vh - 60px);
+    position: sticky;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.block {
+    margin: 24px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.monthGraphWrapper {
+    margin-bottom: 20px;
+}

@@ -1,0 +1,14 @@
+.nickname {
+  background: rgba(0, 0, 0, 0.2);
+  /* background: red; */
+  margin-top: 0.1em;
+  padding: 0.1em 0.4em;
+  font-size: 0.7em;
+  line-height: 1;
+  /* transform: translateY(-0.1em); */
+  border-radius: 4px;
+  margin-left: 0.3em;
+  display: inline-block;
+  /* opacity: 0.5; */
+  /* transform: scale(0.9); */
+}

@@ -1,0 +1,31 @@
+.colored[data-stage="STAGE_1"] {
+  background: linear-gradient(to top, #00bb00, #00d049);
+}
+
+.colored[data-stage="STAGE_2"] {
+  background: linear-gradient(to top, #eab000, #ffde55);
+}
+
+.colored[data-stage="STAGE_3"] {
+  background: linear-gradient(to top, #ff8b04, #ffb157);
+}
+
+.colored[data-stage="STAGE_4"] {
+  background: linear-gradient(to top, #d42111, #e2685d);
+}
+
+.colored[data-stage="STAGE_5"] {
+  background: linear-gradient(to top, #ccc, #fff);
+}
+
+.colored[data-stage="STAGE_6"] {
+  background: linear-gradient(to top, #FF7189, pink);
+}
+
+.colored[data-stage="STAGE_7"] {
+  background: linear-gradient(to top, #00aaff, #9edfff);
+}
+
+.colored[data-stage="DEFAULT"] {
+  background: linear-gradient(to top, #723d1d, #a17f67);
+}

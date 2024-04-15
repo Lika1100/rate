@@ -1,0 +1,87 @@
+.tableHeader {
+    display: flex;
+    margin-left: 32px;
+    line-height: 24px;
+    padding: 0 12px;
+    font-family: "Fira Code", monospace;
+}
+
+.table {
+    font-family: "Fira Code", monospace;
+    border-collapse: collapse;
+    user-select: none;
+}
+
+.mainTable {
+    margin: 20px 12px 40px 32px;
+}
+
+.mainTable .row:hover:not(.selectedWeek) {
+    cursor: pointer;
+    background: skyblue;
+    color: black;
+    border-radius: 4px;
+}
+
+.row {
+    display: block;
+    padding: 0 12px;
+}
+
+.col {
+    width: 70px;
+    text-align: right;
+}
+
+.col:first-child {
+    width: 85px;
+    text-align: left;
+}
+
+
+.col:nth-child(3) {
+    width: 105px;
+}
+
+.currentWeek {
+    position: relative;
+}
+
+.currentWeek::after {
+    position: absolute;
+    left: -18px;
+    top: 0;
+    content: "★";
+    color: white;
+}
+
+.evenMonth {
+    background: #333;
+}
+
+.selectedWeek {
+    background: skyblue;
+    color: black;
+}
+
+.firstSelectedWeek {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+
+}
+
+.lastSelectedWeek {
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+
+.tableBottom {
+    border-radius: 4px;
+    position: sticky;
+    bottom: 8px;
+    background: #112;
+    color: white;
+    padding: 4px 0;
+    margin: 0 12px 8px 32px;
+}

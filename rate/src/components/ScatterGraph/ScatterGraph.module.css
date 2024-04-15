@@ -1,0 +1,56 @@
+.wrapper {
+  background: #555;
+  position: relative;
+  border-radius: 6px;
+}
+
+.gridLineHorizontal {
+  width: 100%;
+  height: 0.5px;
+  background: #444;
+  position: absolute;
+  z-index: 1;
+}
+
+.gridLineVetical {
+  width: 0.5px;
+  height: 100%;
+  background: #444;
+  position: absolute;
+  z-index: 1;
+}
+
+.value {
+  position: absolute;
+  z-index: 2;
+  background: #44444488;
+  border-radius: 2px;
+  font-size: 10px;
+  padding: 2px 4px;
+}
+
+.vertical {
+  right: 4px;
+  transform: translateY(-50%);
+}
+
+
+.horizontal {
+  bottom: 4px;
+  transform: translateX(-50%);
+}
+
+.point {
+  border-radius: 50%;
+  background: rgb(255, 89, 89);
+  position: absolute;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+}
+
+.edge {
+  position: absolute;
+  background: rgba(255, 198, 198, 0.5);
+  transform-origin: top left;
+  z-index: 4;
+}

@@ -1,0 +1,39 @@
+.square {
+    background-color: #555;
+    color: black;
+    text-align: center;
+    width: 14.28571429%;
+    border-radius: 3px;
+    border: 1px solid #222;
+    box-sizing: border-box;
+    cursor: pointer;
+    user-select: none;
+}
+
+
+.square:first-child {
+    margin-left: calc(var(--offset) * 14.28571429%);
+}
+
+.month {
+    margin-bottom: 24px;
+}
+
+.monthName {
+    text-align: right;
+    margin: 0 0 12px;
+    font-size: 18px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.daysWeek {
+    display: inline-block;
+    width: 14.28571429%;
+}
+
+
+

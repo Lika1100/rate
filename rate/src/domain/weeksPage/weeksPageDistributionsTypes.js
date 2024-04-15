@@ -1,0 +1,1 @@
+export const distriburionTypes = ["none", "price"]; // + "frequency" | "hours"

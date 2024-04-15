@@ -1,0 +1,1 @@
+export const views = ['price', 'hours']

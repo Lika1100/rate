@@ -1,0 +1,17 @@
+.header {
+  position: fixed;
+  top: 0;
+  display: flex;
+  min-height: 40px;
+  width: 100%;
+  padding: 8px 0;
+  background: #000;
+  text-align: right;
+  z-index: 10;
+}
+
+/* @media (min-width: 1280px) {
+  .header {
+    top: 0;
+  }
+} */
